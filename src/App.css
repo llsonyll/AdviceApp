@@ -1,28 +1,7 @@
 .App{
-  width: 100vw;
+  align-items: center;  
+  display: flex;
   height: 100vh;
-  background-color: #1f2632;
+  justify-content: center;
+  width: 100vw;
 }
-
-@media screen and (max-width: 375px) {
-  .App{
-    border: 2px solid red;
-  }
-}
-
-/* LightCyan: #cee3e9 */
-/* NeonGreen: #52ffa8 */
-
-/* GrayishBlue: #4e5d73 >> Carta fondo */ 
-/* Dark Grayish Blue: #323a49 >> Fondo */
-/* Dark Blue: #1f2632 >> */
-
-/* Font size (quote): 28px */
-
-/* font-family: 'Manrope', sans-serif; */
-/* font-family: 'Mukta', sans-serif; */
-/* font-family: 'Red Hat Text', sans-serif; */
-/* Weights : 800 */
-
-/* Mobile: 375px  */
-/* Desktop: 1440px  */
