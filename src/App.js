@@ -23,6 +23,15 @@ function App() {
   return (
     <div className="App">
       <Card advice={advice} action={getAdvice} isLoading={isLoading} />
+      <a
+        className="author"
+        href="https://github.com/llsonyll"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        By: Josep Rojas{" "}
+      </a>
     </div>
   );
 }
